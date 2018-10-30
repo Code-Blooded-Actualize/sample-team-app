@@ -1,6 +1,6 @@
 class Api::ExamplesController < ApplicationController
   def index
-    @name = "Josh"
-    render 'index.json.jbuilder'
+    @message = "Do Ray Egon!!!"
+    render 'index.json.jbuiler'
   end
 end
