@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   namespace :api do
     get '/pages' => 'pages#index'
-    # bad code that causes problems
+    get '/examples' => 'examples#index'
   end
 end
