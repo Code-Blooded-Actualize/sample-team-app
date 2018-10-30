@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   namespace :api do
     get '/pages' => 'pages#index'
 
+    get '/snakes' => 'snakes#index'
+
 
     get '/groups' => 'groups#index'
 
@@ -19,7 +21,6 @@ Rails.application.routes.draw do
     get '/messages' => 'messages#index'
 
     get '/byrnes_things' => 'byrnes_things#index'
-
 
     get '/examples' => 'examples#index'
 
